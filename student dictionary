@@ -1,0 +1,15 @@
+A={1:['satish','male','mstcs','pass'],2:['pavan','male','cse','pass'],3:['siva','male','ece','pass'],4:['ali','male','mstcs','pass']}
+x=int(input('enter a sno:'))
+print(x)
+print('name of the person:',A[x][0])
+print('gender:',A[x][1])
+print('Group:',A[x][2])
+print('result',A[x][3])
+
+OUTPUT:
+enter a number:1
+1
+name of the person: satish
+gender: male
+Group: mstcs
+result pass
